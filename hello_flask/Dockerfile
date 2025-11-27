@@ -1,8 +1,7 @@
-FROM python:3.8-slim
+# Stage 1: Build stage
+FROM python:3.8-slim AS Build
 
 WORKDIR /app
-
-COPY . .
 
 RUN apt-get update && apt-get install -y \
     gcc \
@@ -10,7 +9,17 @@ RUN apt-get update && apt-get install -y \
     libmariadb-dev \
     pkg-config
 
+COPY . .
+
 RUN pip install flask mysqlclient
+
+# Stage 2: Production stage
+
+FROM python:3.8-slim
+
+WORKDIR /app
+
+COPY --from=Build /app /app
 
 EXPOSE 5002
 
