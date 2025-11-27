@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: 251705833968.dkr.ecr.eu-north-1.amazonaws.com/flask-mysql:latest
+    image: my-flask-app:multistage
     ports:
       - "5002:5002"
     depends_on:
