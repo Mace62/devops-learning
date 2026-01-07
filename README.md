@@ -158,6 +158,7 @@ This project successfully demonstrates:
 ---
 
 ## 📂 Repository Structure
+`
 aws-vpc-networking/
 ├── README.md
 ├── screenshots/
@@ -173,3 +174,4 @@ aws-vpc-networking/
 │   ├── 11-public-sg.png
 │   ├── 12-private-sg.png
 │   └── 13-bastion-ssh.png
+`
