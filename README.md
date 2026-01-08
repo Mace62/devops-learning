@@ -23,14 +23,13 @@ Full setup details, screenshots, and explanations can be found in the `vpc-netwo
 
 ---
 
-## Application Load Balancer Networking
+### Application Load Balancer Networking
 
 This project demonstrates a **secure, highly available AWS web architecture** using an **Application Load Balancer (ALB)** to route internet traffic to **private EC2 instances** deployed across multiple Availability Zones.
 
 The design follows AWS best practices by terminating public access at the load balancer while keeping compute resources isolated within private subnets.
 
-### Key concepts covered
-
+Key concepts covered include:
 - Application Load Balancer (ALB) configuration
 - Public and private subnet design
 - Multi–Availability Zone deployment for high availability
