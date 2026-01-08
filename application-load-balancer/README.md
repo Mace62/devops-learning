@@ -165,15 +165,15 @@ This project demonstrates:
 application-load-balancer/
 ├── README.md
 └── screenshots/
-├── 01-vpc.png
-├── 02-ec2-instances.png
-├── 03-user-data.png
-├── 04-application-load-balancer.png
-├── 05-target-group.png
-├── 06-alb-security-group.png
-├── 07-ec2-security-group.png
-├── 08-ec2-b.png
-└── 09-ec2-a.png
+  ├── 01-vpc.png
+  ├── 02-ec2-instances.png
+  ├── 03-user-data.png
+  ├── 04-application-load-balancer.png
+  ├── 05-target-group.png
+  ├── 06-alb-security-group.png
+  ├── 07-ec2-security-group.png
+  ├── 08-ec2-b.png
+  └── 09-ec2-a.png
 ```
 
 ---
