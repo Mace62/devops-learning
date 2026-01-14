@@ -35,3 +35,13 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Docker / LocalStack
+# Docker volume directories (contains runtime data, cache, logs)
+**/volume/
+**/volumes/
+# Docker Compose override files
+docker-compose.override.yml
+docker-compose.override.yaml
+**/docker-compose.override.yml
+**/docker-compose.override.yaml
