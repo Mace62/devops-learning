@@ -203,12 +203,11 @@ Type `yes` when prompted. This will:
 
 ## 📸 Screenshots
 
-Include screenshots of:
-- [ ] Terraform plan output showing resources to be created
-- [ ] Terraform apply successful completion
-- [ ] WordPress installation page
-- [ ] WordPress admin dashboard
-- [ ] Working WordPress site homepage
+### WordPress Installation Page
+
+![WordPress Setup Screen](wp-working.png)
+
+The WordPress installation wizard is accessible after deployment, showing the language selection page. This confirms successful deployment and that the site is ready for configuration.
 
 ## 🔒 Security Considerations
 
